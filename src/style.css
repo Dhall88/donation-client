@@ -12,7 +12,11 @@ div {
 .leaf {
     position: absolute;
     width: calc(10vw);
-    height: calc(10vh);
-    right: calc(20vw);
+    height: calc(10vw);
+    right: calc(30vw);
     top: calc(.1vh);
+}
+
+.leaf:hover{
+    right: calc(20vw)
 }
